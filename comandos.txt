@@ -1,0 +1,25 @@
+node.js commands
+
+npm init				 	    : Crear packager.json
+npm init -y				 	    : Crear packager.json caracteristicas por default
+npm install					    : Reconstruir modulos de node
+npm install nombreDelPaquete 	   	    : Instalar paquetes
+npm install nombreDelPaquete@version    : Instalar paquetes version especifica
+npm install nombreDelPaquete --save-dev : Intalar paquetes solo para desarrollo
+npm unistall nombreDelPaquete 	    : Desinstalar paquete
+npm update 					    : Acutalizar todas las dependencias
+npm run nombre del comando	  	    : Ejecutar comandos
+ 
+
+preparar repositorio
+
+crear archivo .gitignore para establecer lo que no quiero guardar en el repo como los node_module
+
+git commands
+
+git init   				: Iniciar la carga al repositorio
+git add .  				: Toma todos los cambios desde el ultimo commit ignorando lo del .gitignore
+git commit -m "Descripción"	: Crear commit
+git checkout -- .			: Regenerar los archivos en caso de que guarde cambios indeseados
+git remote -v 			: Muestra las URLs que Git ha asociado al nombre y que serán usadas al leer y escribir en ese remoto
+git branch				: Mostar rama
