@@ -17,9 +17,14 @@ crear archivo .gitignore para establecer lo que no quiero guardar en el repo com
 
 git commands
 
-git init   				: Iniciar la carga al repositorio
-git add .  				: Toma todos los cambios desde el ultimo commit ignorando lo del .gitignore
-git commit -m "Descripción"	: Crear commit
-git checkout -- .			: Regenerar los archivos en caso de que guarde cambios indeseados
-git remote -v 			: Muestra las URLs que Git ha asociado al nombre y que serán usadas al leer y escribir en ese remoto
-git branch				: Mostar rama
+git init   						: Iniciar la carga al repositorio
+git add .  						: Toma todos los cambios desde el ultimo commit ignorando lo del .gitignore
+git commit -m "Descripción"			: Crear commit
+git checkout -- .					: Regenerar los archivos en caso de que guarde cambios indeseados
+git remote -v 					: Muestra las URLs que Git ha asociado al nombre y que serán usadas al leer y escribir en ese remoto
+git branch						: Mostar rama
+
+heroku config					: Mostrar variables de entorno
+heroku config:set <variable>=<valor>	: Crear variable de entorno
+heroku logs -n 100				: Ver los ultimos 100 logs
+heroku logs -n 100 --tail			: Ver los logs en tiempo real
